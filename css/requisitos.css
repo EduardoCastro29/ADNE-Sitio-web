@@ -392,8 +392,6 @@ footer img{
 
 /* Tabla */
 .table-responsive {
-    overflow-x: auto; /* Permitir desplazamiento horizontal */
-    -webkit-overflow-scrolling: touch; /* Suavizar el desplazamiento en dispositivos táctiles */
     margin-left: 35px; /* Mantener el margen izquierdo para el sidebar */
 }
 
@@ -433,15 +431,5 @@ tbody td {
 @media (max-width: 576px) {
     thead th, tbody td {
         font-size: 0.8em; /* Reducir aún más el tamaño del texto */
-    }
-}
-
-@media (max-width: 768px) {
-    /* En pantallas pequeñas, forzar un tamaño de texto más pequeño */
-    .table td, .table th {
-        font-size: 0.9em; /* Tamaño del texto */
-    }
-    h2 {
-        font-size: 1.5em; /* Ajustar tamaño del encabezado */
     }
 }
