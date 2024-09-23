@@ -427,13 +427,13 @@ footer img{
     }
     .formulario {
         padding: 30px;
-        font-size: 2em;
+        font-size: 1.8em;
         width: 100%;
         margin: 20px 0 0 0;
       }
     
       .formulario h2 {
-        font-size: 1.5em;
+        font-size: 1.6em;
       }
     
       .col-10,
@@ -450,5 +450,9 @@ footer img{
         position: relative;
         width: 70%;
         margin: 0 auto;
+    }
+
+    #mapa h2{
+        font-size: 1.6em;
     }
 }
