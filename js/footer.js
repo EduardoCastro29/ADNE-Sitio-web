@@ -12,7 +12,7 @@ redes.innerHTML+=
                   <li><a href="https://www.instagram.com/adne_kids?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="img/instagram.png" alt="instagram"></a></li>
                   <li><a href="https://www.facebook.com/ADNEKIDS/?locale=es_LA" target="_blank"><img src="img/facebook.png" alt="facebook"></a></li>
                   <li><a href="mailto:adne.kids@gmail.com" target="_blank"><img src="img/gmail.png" alt="correo electronico"></a></li>
-                  <li><a href="https://wa.me/5032508-8882" target="_blank"><img src="img/whatsapp.png" alt="Whatsapp"></a></li>
+                  <li><a href="https://wa.me/50325088882" target="_blank"><img src="img/whatsapp.png" alt="Whatsapp"></a></li>
               </ul>
           </div>
       </div>
