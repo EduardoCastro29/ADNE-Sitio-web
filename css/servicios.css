@@ -420,7 +420,6 @@ footer img{
         @media (max-width: 480px) 
             {
                 font-size: 0.7em;
-                text-align: justify; 
                 justify-content: center;
                 margin-top: -25%;
                 margin-left: 40px;
