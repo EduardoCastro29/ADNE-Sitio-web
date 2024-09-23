@@ -17,7 +17,7 @@ redes.innerHTML+=
           </div>
       </div>
       <div class="footerBottom">
-          <p>Copyright &copy;2024; Designed by <span class="designer">ADNE-dev-team</span></p>
+          <p>Copyright &copy;2024; Designed by <span class="designer">ADNE</span></p>
       </div>
   </footer>
 `
