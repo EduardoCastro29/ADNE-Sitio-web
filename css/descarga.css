@@ -250,9 +250,8 @@ aside{
 @media (max-width: 480px) {
 
     .container h2{
-        font-size: 1.41em;
-        display: flex;
-        justify-content: center;
+        font-size: 1.6em;
+        letter-spacing: 1px;
     }
 }
 
