@@ -392,45 +392,41 @@ footer img{
 
 /* Tabla */
 .table-responsive {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow-x: auto; /* Permitir desplazamiento horizontal */
+    -webkit-overflow-scrolling: touch; /* Suavizar el desplazamiento en dispositivos táctiles */
+    margin-left: 35px; /* Mantener el margen izquierdo para el sidebar */
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 100%; /* Mantener el ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
 }
 
 thead th {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    white-space: nowrap; /* Evita que se rompan las palabras en el encabezado */
+    background-color: #f1f1f1; /* Color de fondo para el encabezado */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    white-space: nowrap; /* Evitar que se rompan las palabras en el encabezado */
 }
 
 tbody td {
-    padding: 10px;
-    text-align: center;
-    word-wrap: break-word; /* Permite que las palabras largas se rompan y no desborden */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    word-wrap: break-word; /* Permitir que las palabras largas se rompan */
 }
 
 .table-bordered {
-    border: 1px solid #dee2e6;
+    border: 1px solid #dee2e6; /* Bordes de la tabla */
 }
 
 .table-bordered td, .table-bordered th {
-    border: 1px solid #dee2e6;
+    border: 1px solid #dee2e6; /* Bordes de las celdas */
 }
 
 /* Media Queries para pantallas pequeñas */
 @media (max-width: 768px) {
     thead th, tbody td {
-        font-size: 0.9em; /* Reducir el tamaño del texto en pantallas pequeñas */
-    }
-    
-    .table-responsive {
-        overflow-x: auto; /* Sigue permitiendo el desplazamiento horizontal */
-        margin-left: 35px;
+        font-size: 0.9em; /* Reducir tamaño del texto */
     }
 }
 
@@ -440,14 +436,12 @@ tbody td {
     }
 }
 
-
 @media (max-width: 768px) {
-    /* En pantallas pequeñas forzamos un tamaño de texto más pequeño para evitar problemas */
+    /* En pantallas pequeñas, forzar un tamaño de texto más pequeño */
     .table td, .table th {
-        font-size: 0.9em;
+        font-size: 0.9em; /* Tamaño del texto */
     }
     h2 {
-        font-size: 1.5em;
+        font-size: 1.5em; /* Ajustar tamaño del encabezado */
     }
 }
-
