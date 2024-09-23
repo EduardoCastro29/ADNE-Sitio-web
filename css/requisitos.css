@@ -277,12 +277,20 @@ aside{
             justify-content: center;
         }
 }
+.container h2{
+    display: flex;
+    justify-content: center;
+    @media (max-width:480px) {
+        margin: 0;
+     
+    }
+}
 
 
 @media (max-width: 480px) {
 
     .container h2{
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
 }
 

@@ -22,44 +22,45 @@
           <div class="main">
             <div id="banner"></div>
             <div class="container">
+              
               <div class="container">
-                <div class="formulario row">
-              <div class="formulario mt-5">
-                <div class="col sm-12 col-lg-12 mt-3">
-                  <h2>Contáctanos</h2>
+                <div class="formulario row m-2">
+                    <div class="formulario mt-5">
+                      <div class="col sm-12 col-lg-12">
+                          <h2>Contáctanos</h2>
+              </div>
+            </div>
+            <hr>
+            <div class="formulario">
+                <div class="col sm-12 col-lg-12">
+                    <form action=""  id="frmContacto">
+                        <div class="my-3">
+                            <label for="nombre">Nombre Completo <span class="text-danger">*</span></label>
+                            <input type="text" name="" id="nombre"  class="form-control" placeholder="Nombre..." required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email">Correo Electrónico<span class="text-danger">*</span></label>
+                            <input type="email" name="" id="email"  class="form-control" placeholder="correo@gmail.com" required> 
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono">Número de teléfono<span class="text-danger">*</span></label>
+                            <input type="tel" name="" id="telefono"  class="form-control" placeholder="0000-0000" pattern="[0-9]{4}-[0-9]{4}">
+                        </div>
+                        <div class="mb-3">
+                            <label for="comentario">Comentarios</label>
+                            <textarea name="" id="Comentarios" rows="2"  class="form-control"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" value="Enviar" style="border-radius: 5px; color: white; background-color: teal; padding: 5px;">
+                            <input type="reset" value="Borrar" style="border-radius: 5px; color: white; background-color: rgb(143, 15, 15); padding: 5px;">
+                        </div>
+                    </form>
                 </div>
-              </div>
-              <hr>
-              <div class="formulario">
-                  <div class="col sm-12 col-lg-12 mt--5">
-                      <form action=""  id="frmContacto">
-                          <div class="my-3">
-                              <label for="nombre">Nombre Completo <span class="text-danger">*</span></label>
-                              <input type="text" name="" id="nombre"  class="form-control" placeholder="Nombre..." required>
-                          </div>
-                          <div class="mb-3">
-                              <label for="email">Correo Electrónico<span class="text-danger">*</span></label>
-                              <input type="email" name="" id="email"  class="form-control" placeholder="correo@gmail.com" required> 
-                          </div>
-                          <div class="mb-3">
-                              <label for="telefono">Número de teléfono<span class="text-danger">*</span></label>
-                              <input type="tel" name="" id="telefono"  class="form-control" placeholder="0000-0000" pattern="[0-9]{4}-[0-9]{4}">
-                          </div>
-                          <div class="mb-3">
-                              <label for="comentario">Comentarios</label>
-                              <textarea name="" id="Comentarios" rows="2"  class="form-control"></textarea>
-                          </div>
-                          <div class="mb-3">
-                              <input type="submit" value="Enviar" style="border-radius: 5px; color: white; background-color: teal; padding: 5px;">
-                              <input type="reset" value="Borrar" style="border-radius: 5px; color: white; background-color: rgb(143, 15, 15); padding: 5px;">
-                          </div>
-                      </form>
-                  </div>
-              </div>
-          </div>
-    </div>
-    </div>
-  
+            </div>
+        </div>
+  </div>
+  </div>
+
     <div id="mapa">
       <div class="col sm-12 col-lg-12 mt-5">
         <h2>Nuestra Sucursal</h2>

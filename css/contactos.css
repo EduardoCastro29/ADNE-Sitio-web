@@ -283,6 +283,14 @@ aside{
         }
 }
 
+.container h2{
+    display: flex;
+    justify-content: center;
+    @media (max-width:480px) {
+        margin: 0;
+        
+    }
+}
 
 @media (max-width: 480px) {
 
@@ -399,7 +407,12 @@ footer img{
     margin: 0 auto;
     
   }
-  
+
+#mapa h2{
+        display: flex;
+        justify-content: center;
+}
+
   #frameMapa {
     position: relative;
     width: 100%;
@@ -456,3 +469,4 @@ footer img{
         font-size: 1.6em;
     }
 }
+
