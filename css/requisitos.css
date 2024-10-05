@@ -280,22 +280,19 @@ aside{
 .container h2{
     display: flex;
     justify-content: center;
-    @media (max-width:480px) {
-        margin: 0;
-     
-    }
 }
 
 
 @media (max-width: 480px) {
 
     .container h2{
-        font-size: 1.4em;
+        font-size: 1.8em;
     }
 }
 
 .container p{
     text-align: justify; 
+    font-size: 1.2em;
 }
 
 *{
@@ -441,3 +438,62 @@ tbody td {
         font-size: 0.8em; /* Reducir aún más el tamaño del texto */
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        padding-left: 15px; /* Espacio a la izquierda */
+        padding-right: 15px; /* Espacio a la derecha */
+    }
+    .container li {
+        font-size: 1em; /* Tamaño de fuente */
+        line-height: 1.6; /* Interlineado */
+        margin-bottom: 12px; /* Espaciado inferior */
+        padding-left: 20px; /* Indentación de la lista */
+    }
+
+    .row {
+        margin-left: 0; /* Eliminar margen izquierdo */
+        margin-right: 0; /* Eliminar margen derecho */
+    }
+
+    .col-sm-10 {
+        margin-left: 5%; /* Añadir margen a la izquierda para centrar */
+        margin-right: 5%; /* Añadir margen a la derecha para centrar */
+        padding-left: 15px; /* Padding a la izquierda */
+        padding-right: 15px; /* Padding a la derecha */
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0 {
+        margin: 0; /* Elimina cualquier margen que esté afectando */
+        padding: 0; /* Elimina padding si es necesario */
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-2 {
+        margin: 0 20px; /* Ajusta este valor según sea necesario */
+        padding: 0; /* Elimina padding si es necesario */
+    }
+    
+    .col-sm-12.col-lg-3.order-md-1 {
+        margin: 0 20px; /* Ajusta este valor para el espaciado */
+    }
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 {
+        display: flex;
+        flex-direction: column; /* Cambia a columna para que se alineen verticalmente */
+        align-items: center; /* Centra horizontalmente */
+    }
+    
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 hr {
+        width: 100%; /* Ajusta el ancho del hr según sea necesario */
+        margin: 10px 0; /* Espaciado arriba y abajo */
+    }
+
+    .container p {
+        font-size: 1.2em; /* Mantiene el tamaño del texto */
+        line-height: 1.2; /* Reduce el espaciado entre líneas para apretar más */
+        text-align: justify; /* Alinea el texto a la izquierda */
+        margin-left: 0; /* Alinea el contenido */
+        margin-bottom: 10pxx; /* Reduce el espacio entre elementos de lista */
+    }
+    
+}
+    

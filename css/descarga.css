@@ -256,6 +256,7 @@ aside{
 
 .container p{
     text-align: justify; 
+    font-size: 1.2em;
 }
 
 *{
@@ -458,4 +459,78 @@ ul{
     @media (max-width: 480px) {
         font-size:1em;
     }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding-left: 15px; /* Espacio a la izquierda */
+        padding-right: 15px; /* Espacio a la derecha */
+    }
+
+    .row {
+        margin-left: 0; /* Eliminar margen izquierdo */
+        margin-right: 0; /* Eliminar margen derecho */
+    }
+
+    .col-sm-10 {
+        margin-left: 5%; /* Añadir margen a la izquierda para centrar */
+        margin-right: 5%; /* Añadir margen a la derecha para centrar */
+        padding-left: 15px; /* Padding a la izquierda */
+        padding-right: 15px; /* Padding a la derecha */
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0 {
+        margin: 0; /* Elimina cualquier margen que esté afectando */
+        padding: 0; /* Elimina padding si es necesario */
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-2 {
+        margin: 0 20px; /* Ajusta este valor según sea necesario */
+        padding: 0; /* Elimina padding si es necesario */
+    }
+    
+    .col-sm-12.col-lg-3.order-md-1 {
+        margin: 0 20px; /* Ajusta este valor para el espaciado */
+    }
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 480px) {
+
+    .container-listas {
+        max-width: 68.5%; /* Limita el ancho aún más para un ajuste más apretado */
+        margin: 0 auto; /* Centra el contenedor */
+        padding: 0; /* Elimina padding extra */
+    }
+
+    .container-listas ul {
+        padding-left: 10px; /* Reduce la indentación de las listas */
+        max-width: 100%; /* Mantiene el ancho de las listas */
+    }
+
+    .container-listas h3 {
+        font-size: 1.6em; /* Mantiene el tamaño de encabezado */
+        text-align: left; /* Alinea a la izquierda para consistencia */
+        margin-left: 0; /* Quita margen izquierdo */
+        margin-bottom: 10px; /* Reduce el espacio debajo del encabezado */
+    }
+
+    .container-listas p,
+    .container-listas li {
+        font-size: 1.2em; /* Mantiene el tamaño del texto */
+        line-height: 1.2; /* Reduce el espaciado entre líneas para apretar más */
+        text-align: justify; /* Alinea el texto a la izquierda */
+        margin-left: 0; /* Alinea el contenido */
+        margin-bottom: 10pxx; /* Reduce el espacio entre elementos de lista */
+    }
+    
 }

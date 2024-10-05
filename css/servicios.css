@@ -390,12 +390,14 @@ footer img{
 
 .imgbody{
     width: 300px; 
+    max-width: 100%; /* Asegúrate de que la imagen no se desborde */
+    height: auto; /* Mantiene la proporción de la imagen */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
     border-radius: 3%;
 
     @media (max-width: 480px)
         {
-            width: 250px;
+            width: 300px;
         }
 }
 
@@ -445,3 +447,54 @@ footer img{
     object-fit: cover;
 }
 
+@media (max-width: 480px) {
+    .container {
+        padding-left: 15px; /* Espacio a la izquierda */
+        padding-right: 15px; /* Espacio a la derecha */
+    }
+
+    .row {
+        margin-left: 0; /* Eliminar margen izquierdo */
+        margin-right: 0; /* Eliminar margen derecho */
+    }
+
+    .col-sm-10 {
+        margin-left: 5%; /* Añadir margen a la izquierda para centrar */
+        margin-right: 5%; /* Añadir margen a la derecha para centrar */
+        padding-left: 15px; /* Padding a la izquierda */
+        padding-right: 15px; /* Padding a la derecha */
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0 {
+        margin: 0; /* Elimina cualquier margen que esté afectando */
+        padding: 0; /* Elimina padding si es necesario */
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-2 {
+        margin: 0 20px; /* Ajusta este valor según sea necesario */
+        padding: 0; /* Elimina padding si es necesario */
+    }
+    
+    .col-sm-12.col-lg-3.order-md-1 {
+        margin: 0 20px; /* Ajusta este valor para el espaciado */
+    }
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 {
+        display: flex;
+        flex-direction: column; /* Cambia a columna para que se alineen verticalmente */
+        align-items: center; /* Centra horizontalmente */
+    }
+    
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 hr {
+        width: 100%; /* Ajusta el ancho del hr según sea necesario */
+        margin: 10px 0; /* Espaciado arriba y abajo */
+    }
+
+    .container p {
+        font-size: 1.2em; /* Mantiene el tamaño del texto */
+        line-height: 1.2; /* Reduce el espaciado entre líneas para apretar más */
+        text-align: justify; /* Alinea el texto a la izquierda */
+        margin-left: 0; /* Alinea el contenido */
+        margin-bottom: 10pxx; /* Reduce el espacio entre elementos de lista */
+    }
+    
+}
